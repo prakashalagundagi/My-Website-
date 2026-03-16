@@ -14,3 +14,9 @@ My projects
 My education
 
 How to contact me
+
+👨‍💻 About Me
+
+Hello! I'm Prakash A, a Computer Science student passionate about technology, programming, and cybersecurity.
+
+I enjoy learning new technologies and building projects that improve my skills. My goal is to become a skilled software developer and cybersecurity professional.
