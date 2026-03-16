@@ -27,3 +27,8 @@ The portfolio website is built using the following technologies:
 HTML5 – Structure of the website
 
 CSS3 – Styling and design
+JavaScript – Interactive features
+
+EmailJS – Contact form functionality
+
+
