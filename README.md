@@ -30,5 +30,30 @@ CSS3 – Styling and design
 JavaScript – Interactive features
 
 EmailJS – Contact form functionality
+📂 Website Sections
+🏠 Home
 
+Introduction and quick overview of who I am.
+
+👤 About
+
+Information about my education, interests, and career goals.
+
+💻 Skills
+
+Shows my technical skills such as:
+
+Programming
+
+Web development
+
+Problem solving
+
+📁 Projects
+
+Displays the projects I have worked on.
+
+📞 Contact
+
+A contact form that allows visitors to send me a message directly through email.
 
