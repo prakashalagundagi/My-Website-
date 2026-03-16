@@ -20,3 +20,10 @@ How to contact me
 Hello! I'm Prakash A, a Computer Science student passionate about technology, programming, and cybersecurity.
 
 I enjoy learning new technologies and building projects that improve my skills. My goal is to become a skilled software developer and cybersecurity professional.
+🛠️ Technologies Used
+
+The portfolio website is built using the following technologies:
+
+HTML5 – Structure of the website
+
+CSS3 – Styling and design
