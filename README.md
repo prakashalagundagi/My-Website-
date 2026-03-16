@@ -57,3 +57,34 @@ Displays the projects I have worked on.
 
 A contact form that allows visitors to send me a message directly through email.
 
+🎯 Purpose of This Website
+
+The purpose of this portfolio is to:
+
+Showcase my skills and projects
+
+Build my online presence
+
+Help recruiters and collaborators know more about me
+
+🚀 How to Run This Website
+
+Download or clone the repository
+
+git clone https://github.com/yourusername/portfolio.git
+
+Open the folder.
+
+Open index.html in your browser.
+
+📬 Contact Me
+
+If you want to connect with me:
+
+📧 Email: your-email@example.com
+
+🌐 Portfolio: your-website-link
+
+💼 LinkedIn: your-linkedin-profile
+
+⭐ Thank you for visiting my portfolio!
