@@ -81,10 +81,10 @@ Open index.html in your browser.
 
 If you want to connect with me:
 
-📧 Email: your-email@example.com
+📧 Email: prakashalagundagi20gmail.com
 
-🌐 Portfolio: your-website-link
+🌐 Portfolio: https://prakashalagundagi.github.io/My-Website-/
 
-💼 LinkedIn: your-linkedin-profile
+💼 LinkedIn: https://www.linkedin.com/in/prakash-alagundagi-56068b263/
 
 ⭐ Thank you for visiting my portfolio!
