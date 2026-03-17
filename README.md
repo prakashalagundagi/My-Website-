@@ -71,7 +71,7 @@ Help recruiters and collaborators know more about me
 
 Download or clone the repository
 
-git clone https://github.com/yourusername/portfolio.git
+git clone  https://prakashalagundagi.github.io/My-Website-/
 
 Open the folder.
 
