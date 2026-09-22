@@ -32,7 +32,7 @@ $(document).ready(function () {
     });
 
     // smooth scrolling
-    $('a[href*="#"]').on('click', function (e) {
+    $('a[href*="#"]:not([href="#"])').on('click', function (e) {
         e.preventDefault();
         $('html, body').animate({
             scrollTop: $($(this).attr('href')).offset().top,
@@ -73,7 +73,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Cybersecurity Enthusiast", "Computer Science Student", "Full Stack Learner", "Problem Solver", "Tech Innovator"],
+    strings: ["scalable web apps", "REST APIs", "secure software", "clean user interfaces", "things that solve real problems"],
     loop: true,
     typeSpeed: 60,
     backSpeed: 35,
@@ -110,10 +110,10 @@ function showSkills(skills) {
 function showProjects(projects) {
     let projectsContainer = document.querySelector("#work .box-container");
     let projectHTML = "";
-    projects.slice(0, 10).filter(project => project.category != "android").forEach(project => {
+    projects.filter(project => project.category != "android").slice(0, 10).forEach(project => {
         projectHTML += `
         <div class="box tilt">
-      <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
+      <img draggable="false" src="./assets/images/projects/${project.image}.png" alt="${project.name}" />
       <div class="content">
         <div class="tag">
         <h3>${project.name}</h3>
