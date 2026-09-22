@@ -154,11 +154,11 @@ function showProjects(projects) {
 
 fetchData().then(data => {
     showSkills(data);
-});
+}).catch(err => console.error("Could not load skills.json:", err));
 
 fetchData("projects").then(data => {
     showProjects(data);
-});
+}).catch(err => console.error("Could not load projects.json:", err));
 
 // <!-- tilt js effect starts -->
 VanillaTilt.init(document.querySelectorAll(".tilt"), {

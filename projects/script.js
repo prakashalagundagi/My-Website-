@@ -121,7 +121,7 @@ function showProjects(projects) {
 
 getProjects().then(data => {
     showProjects(data);
-})
+}).catch(err => console.error("Could not load projects.json:", err));
 // fetch projects end
 
 // Start of Tawk.to Live Chat
