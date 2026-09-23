@@ -109,8 +109,10 @@ function showSkills(skills) {
 
 function showProjects(projects) {
     let projectsContainer = document.querySelector("#work .box-container");
+    // Show only the Portfolio Website project
+    let project = projects.find(p => p.name === "Portfolio Website");
     let projectHTML = "";
-    projects.filter(project => project.category != "android").slice(0, 10).forEach(project => {
+    if (project) {
         projectHTML += `
         <div class="box tilt">
       <img draggable="false" src="./assets/images/projects/${project.image}.png" alt="${project.name}" />
@@ -126,9 +128,9 @@ function showProjects(projects) {
           </div>
         </div>
       </div>
-    </div>`
-    });
-    projectsContainer.innerHTML = projectHTML;
+    </div>`;
+    }
+    projectsContainer.innerHTML = projectHTML || `<p>No projects found</p>`;
 
     // <!-- tilt js effect starts -->
     VanillaTilt.init(document.querySelectorAll(".tilt"), {
