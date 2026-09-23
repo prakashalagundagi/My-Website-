@@ -30,6 +30,7 @@ document.addEventListener('visibilitychange',
     });
 
 
+
 // fetch projects start
 function getProjects() {
     return fetch("projects.json")
@@ -42,8 +43,10 @@ function getProjects() {
 
 function showProjects(projects) {
     let projectsContainer = document.querySelector(".work .box-container");
+    // Show only the Portfolio Website project
+    let project = projects.find(p => p.name === "Portfolio Website");
     let projectsHTML = "";
-    projects.forEach(project => {
+    if (project) {
         projectsHTML += `
         <div class="grid-item ${project.category}">
         <div class="box tilt" style="width: 380px; margin: 1rem">
@@ -61,16 +64,16 @@ function showProjects(projects) {
         </div>
       </div>
     </div>
-    </div>`
-    });
-    projectsContainer.innerHTML = projectsHTML;
+    </div>`;
+    }
+    projectsContainer.innerHTML = projectsHTML || `<p>No projects found</p>`;
 
     if (window.VanillaTilt) {
         VanillaTilt.init(document.querySelectorAll(".tilt"), {
             max: 10,
             speed: 650,
             glare: true,
-            "max-glare": 0.16,
+            "max-glare": 0.18,
         });
     }
 
@@ -154,4 +157,3 @@ document.onkeydown = function (e) {
         return false;
     }
 }
-
