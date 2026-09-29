@@ -1427,6 +1427,18 @@ form .button-area {
 .button-area button:hover i {
   left: 8px;
 }
+.button-area button:disabled {
+  cursor: wait;
+  opacity: 0.7;
+  transform: none;
+}
+.contact-status {
+  width: 100%;
+  margin: 1rem 0 0;
+  color: var(--primary);
+  font-size: 1.4rem;
+  text-align: right;
+}
 /* contact section media queries starts */
 @media (max-width: 900px) {
   .contact {
