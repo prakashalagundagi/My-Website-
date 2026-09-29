@@ -83,8 +83,12 @@ $(document).ready(function () {
                 `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\n\nMessage:\n${message}`
             );
 
-            status.textContent = "Opening your email app to complete the message...";
-            window.location.href = `mailto:prakashalagundagi20@gmail.com?subject=${subject}&body=${body}`;
+            status.innerHTML = `
+                Email sending is currently unavailable.
+                <a href="mailto:prakashalagundagi20@gmail.com?subject=${subject}&body=${body}">
+                    Click here to email me directly
+                </a>
+            `;
         } finally {
             submitButton.disabled = false;
         }

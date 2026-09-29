@@ -1439,6 +1439,11 @@ form .button-area {
   font-size: 1.4rem;
   text-align: right;
 }
+.contact-status a {
+  color: var(--primary);
+  font-weight: 700;
+  text-decoration: underline;
+}
 /* contact section media queries starts */
 @media (max-width: 900px) {
   .contact {
