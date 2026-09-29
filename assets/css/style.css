@@ -1433,6 +1433,7 @@ form .button-area {
   transform: none;
 }
 .contact-status {
+  clear: both;
   width: 100%;
   margin: 1rem 0 0;
   color: var(--primary);
