@@ -71,7 +71,7 @@ $(document).ready(function () {
                 throw new Error("Email service is unavailable");
             }
 
-            emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
+            emailjs.init("mql2ULrArfPcVJOuD");
             await emailjs.sendForm("service_pwit27a", "__ejs-test-mail-service__", form);
 
             form.reset();
