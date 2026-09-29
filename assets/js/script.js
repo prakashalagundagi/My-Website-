@@ -72,7 +72,7 @@ $(document).ready(function () {
             }
 
             emailjs.init("mql2ULrArfPcVJOuD");
-            await emailjs.sendForm("service_pwit27a", "__ejs-test-mail-service__", form);
+            await emailjs.sendForm("service_pwit27a", "template_vc4qucs", form);
 
             form.reset();
             status.textContent = "Your message was sent successfully.";
