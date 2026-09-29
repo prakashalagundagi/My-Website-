@@ -72,7 +72,7 @@ $(document).ready(function () {
             }
 
             emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
-            await emailjs.sendForm("service_kwmvj2e", "template_swvux8s", form);
+            await emailjs.sendForm("service_pwit27a", "__ejs-test-mail-service__", form);
 
             form.reset();
             status.textContent = "Your message was sent successfully.";
