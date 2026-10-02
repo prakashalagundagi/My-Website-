@@ -1,12 +1,35 @@
 [
+ 
   {
     "name": "Portfolio Website",
-    "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
+    "desc": "Personal Portfolio Website showcasing my skills, projects, and experience.",
     "image": "portfolio1",
     "category": "basicweb",
     "links": {
       "view": "https://prakashalagundagi.github.io/My-Website-/",
       "code": "https://github.com/prakashalagundagi/My-Website-"
     }
+  },
+  {
+    "name": "Zero Hunger Connect",
+    "desc": "A web-based platform designed to help connect surplus food with people and organizations in need.",
+    "image": "zerohunger",
+    "category": "web",
+    "links": {
+      "view": "YOUR_LIVE_WEBSITE_LINK",
+      "code": "YOUR_GITHUB_LINK"
+    }
+  },
+  {
+    "name": "Crypt_X",
+    "desc": "A cybersecurity and cryptography learning platform featuring cryptographic concepts and a Wireshark module.",
+    "image": "cryptx",
+    "category": "cybersecurity",
+    "links": {
+      "view": "https://prakashalagundagi.github.io/Crypt_X/",
+      "code": "YOUR_GITHUB_LINK"
+    }
   }
+
+
 ]
