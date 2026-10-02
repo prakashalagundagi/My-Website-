@@ -11,25 +11,13 @@
     }
   },
   {
-    "name": "Zero Hunger Connect",
-    "desc": "A web-based platform designed to help connect surplus food with people and organizations in need.",
-    "image": "zerohunger",
-    "category": "web",
-    "links": {
-      "view": "YOUR_LIVE_WEBSITE_LINK",
-      "code": "YOUR_GITHUB_LINK"
-    }
-  },
-  {
     "name": "Crypt_X",
     "desc": "A cybersecurity and cryptography learning platform featuring cryptographic concepts and a Wireshark module.",
     "image": "cryptx",
     "category": "cybersecurity",
     "links": {
       "view": "https://prakashalagundagi.github.io/Crypt_X/",
-      "code": "YOUR_GITHUB_LINK"
+      "code": "https://github.com/prakashalagundagi/Crypt_X"
     }
   }
-
-
 ]
