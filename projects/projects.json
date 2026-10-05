@@ -1,5 +1,4 @@
 [
- 
   {
     "name": "Portfolio Website",
     "desc": "Personal Portfolio Website showcasing my skills, projects, and experience.",
@@ -11,23 +10,13 @@
     }
   },
   {
-    "name": "Crypt_X",
-    "desc": "A cybersecurity and cryptography learning platform featuring cryptographic concepts and a Wireshark module.",
-    "image": "cryptotracker",
-    "category": "cybersecurity",
+    "name": "AI Resume Analyzer",
+    "desc": "An AI-powered resume analysis tool that helps evaluate resume content, key skills, and ATS compatibility.",
+    "image": "resumegen",
+    "category": "ai",
     "links": {
-      "view": "https://prakashalagundagi.github.io/Crypt_X/",
-      "code": "https://github.com/prakashalagundagi/Crypt_X"
-    }
-  },
-  {
-    "name": "Foodicious",
-    "desc": "A responsive restaurant website with menu, special offers, and an engaging food ordering experience.",
-    "image": "foodicious",
-    "category": "basicweb",
-    "links": {
-      "view": "https://prakashalagundagi.github.io/Foodicious/",
-      "code": "https://github.com/prakashalagundagi/Foodicious"
+      "view": "https://prakashalagundagi.github.io/Ai-Resume-Analyzer/",
+      "code": "https://github.com/prakashalagundagi/Ai-Resume-Analyzer"
     }
   }
 ]

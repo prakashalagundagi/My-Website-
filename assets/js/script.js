@@ -156,7 +156,12 @@ function showProjects(projects) {
     let projectsContainer = document.querySelector("#work .box-container");
     let projectHTML = "";
 
-    projects.slice(0, 3).forEach(project => {
+    const featuredProjectNames = ["Portfolio Website", "AI Resume Analyzer"];
+    const filteredProjects = projects.filter(project =>
+        featuredProjectNames.includes(project.name)
+    );
+
+    filteredProjects.forEach(project => {
         projectHTML += `
         <div class="box tilt">
       <img draggable="false" src="./assets/images/projects/${project.image}.png" alt="${project.name}" />
