@@ -13,11 +13,21 @@
   {
     "name": "Crypt_X",
     "desc": "A cybersecurity and cryptography learning platform featuring cryptographic concepts and a Wireshark module.",
-    "image": "D:\\OneDrive\\Desktop\\clone\\My-Website-\\My-Website--1\\assets\\images\\projects\\foodwebsite.png",
+    "image": "cryptotracker",
     "category": "cybersecurity",
     "links": {
       "view": "https://prakashalagundagi.github.io/Crypt_X/",
       "code": "https://github.com/prakashalagundagi/Crypt_X"
+    }
+  },
+  {
+    "name": "Foodicious",
+    "desc": "A responsive restaurant website with menu, special offers, and an engaging food ordering experience.",
+    "image": "foodicious",
+    "category": "basicweb",
+    "links": {
+      "view": "https://prakashalagundagi.github.io/Foodicious/",
+      "code": "https://github.com/prakashalagundagi/Foodicious"
     }
   }
 ]
