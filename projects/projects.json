@@ -18,5 +18,15 @@
       "view": "https://prakashalagundagi.github.io/Ai-Resume-Analyzer/",
       "code": "https://github.com/prakashalagundagi/Ai-Resume-Analyzer"
     }
+  },
+  {
+    "name": "Password Strength Analyzer",
+    "desc": "A web app that analyzes password strength in real time, scoring entropy and estimated crack time, with live requirement checks and one-click strong-password suggestions.",
+    "image": "passwordstrength",
+    "category": "basicweb",
+    "links": {
+      "view": "https://prakashalagundagi.github.io/Password-Strength-Analyzer-/",
+      "code": "https://github.com/prakashalagundagi/Password-Strength-Analyzer-"
+    }
   }
 ]
