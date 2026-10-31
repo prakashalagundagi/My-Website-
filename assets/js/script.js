@@ -127,7 +127,7 @@ async function fetchData(type = "skills") {
     let response;
     type === "skills"
         ? response = await fetch("skills.json")
-        : response = await fetch("./projects/projects.json");
+        : response = await fetch("./projects/projects.json?v=20261101");
 
     if (!response.ok) {
         throw new Error(`Failed to fetch ${type}: ${response.status}`);
@@ -156,7 +156,7 @@ function showProjects(projects) {
     let projectsContainer = document.querySelector("#work .box-container");
     let projectHTML = "";
 
-    const featuredProjectNames = ["Portfolio Website", "AI Resume Analyzer"];
+    const featuredProjectNames = ["Portfolio Website", "AI Resume Analyzer", "Password Strength Analyzer"];
     const filteredProjects = projects.filter(project =>
         featuredProjectNames.includes(project.name)
     );

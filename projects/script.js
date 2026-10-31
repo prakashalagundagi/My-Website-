@@ -69,7 +69,7 @@ document.addEventListener('visibilitychange', function () {
 
 function getProjects() {
 
-    return fetch("projects.json")
+    return fetch("projects.json?v=20261101")
         .then(response => {
 
             if (!response.ok) {
